@@ -1,0 +1,38 @@
+.UpcomingM {
+  width: 33.3333%; /* col-md-4 */
+  margin-top: 3rem; /* mt-5 */
+  margin-top: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  text-align: justify;
+}
+.body {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('../../assets/wall-of-bricks-4971524_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  transform: scale(1.1); /* prevents white edges */
+  z-index: -1;
+}
+.body::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+
+

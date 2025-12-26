@@ -1,0 +1,71 @@
+.details {
+  position: relative;
+  min-height: 100vh;
+  background-color: #131722; /* dark background */
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* subtle backdrop effect */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  padding-top: 50px;
+}
+
+.content h1 {
+  color: #01b4e4; /* TMDB blue */
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Poster styling */
+.poster {
+  width: 100%;        /* responsive width */
+  max-width: 400px;   /* limits max width */
+  height: auto;       /* maintains aspect ratio */
+  max-height: 80vh;   /* prevents too tall images */
+  border-radius: 10px;
+  object-fit: cover;  /* fills space nicely */
+  display: block;     /* remove extra inline spacing */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+/* Optional: row adjustments */
+.row {
+  align-items: flex-start; /* aligns poster and text properly */
+}
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* space between boxes */
+  margin-bottom: 15px;
+}
+
+.box {
+  background-color: #01b4e4; /* TMDB blue */
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+.generP{
+    margin-bottom: 0;
+}

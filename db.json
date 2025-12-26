@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "e72f",
+      "first_name": "zoro",
+      "last_name": "zoro",
+      "age": "23",
+      "email": "zoro@gmail.com",
+      "password": "Zoro@115"
+    },
+    {
+      "id": "8e3b",
+      "first_name": "gamal",
+      "last_name": "hamza",
+      "age": "26",
+      "email": "gamal@yahoo.com",
+      "password": "Gamal@115"
+    },
+    {
+      "id": "ac44",
+      "first_name": "hamada",
+      "last_name": "hima",
+      "age": "15",
+      "email": "hamo@yahoo.com",
+      "password": "Hamo@1156"
+    },
+    {
+      "id": "c0b2",
+      "first_name": "ibrahim",
+      "last_name": "himida",
+      "age": "17",
+      "email": "hima@yahoo.com",
+      "password": "Zara@8895"
+    },
+    {
+      "id": "5539",
+      "first_name": "ibrahim",
+      "last_name": "ahmed",
+      "age": "23",
+      "email": "ibrahimAhmed@gmail.com",
+      "password": "Himaco@115"
+    }
+  ]
+}
