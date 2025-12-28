@@ -57,3 +57,42 @@ The application is fully responsive and optimized for different screen sizes usi
 
 ## 📁 Project Structure
 
+egyspiders/
+│
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── services/
+│ ├── context/
+│ ├── App.jsx
+│ └── index.js
+│
+├── public/
+├── package.json
+└── README.md
+
+
+---
+
+## 📌 What I Learned
+
+- Building scalable React applications using component-based architecture
+- Integrating RESTful APIs using Axios
+- Handling authentication and protected routes
+- Improving UX with loading indicators and error handling
+- Writing clean, maintainable React code
+
+---
+
+## 📬 Contact
+
+**Ibrahim Himida**  
+Frontend Developer  
+GitHub: https://github.com/zoro115  
+LinkedIn: https://www.linkedin.com/in/ibrahim-himida-369a03230/
+
+---
+
+⭐ If you like this project, feel free to give it a star!
+
+
